@@ -24,8 +24,8 @@ This repository includes a VS Code Dev Container configuration that provides a c
 The dev container includes:
 
 - **Python 3.11** - Base Python environment
-- **ESPHome** - Latest version of ESPHome CLI
-- **PlatformIO Core** - For building and uploading firmware
+- **ESPHome** - Latest version of ESPHome CLI (automatically installed from PyPI)
+- **PlatformIO Core** - For building and uploading firmware (automatically installed from PyPI)
 - **Build tools** - gcc, g++, cmake, ninja-build, and other essential build tools
 - **Development tools** - pylint, black, pytest for Python development
 
