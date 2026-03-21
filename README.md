@@ -50,6 +50,9 @@ esphome compile my-device.yaml
 
 # Upload to device (make sure the device is connected)
 esphome upload my-device.yaml
+
+# Run on remote device
+esphome run config_file.yaml --device 192.168.x.x
 ```
 
 ### VS Code Extensions
