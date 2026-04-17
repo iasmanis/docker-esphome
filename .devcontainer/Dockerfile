@@ -44,7 +44,8 @@ RUN groupadd --gid $USER_GID $USERNAME \
 RUN pip3 install --no-cache-dir platformio
 
 # Install ESPHome
-RUN pip3 install --no-cache-dir esphome
+# RUN pip3 install --no-cache-dir esphome
+RUN pip3 install --no-cache-dir "esphome==2026.4.0"
 
 # Install additional Python tools for development
 RUN pip3 install --no-cache-dir \
