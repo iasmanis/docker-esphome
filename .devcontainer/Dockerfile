@@ -1,5 +1,5 @@
-# Use Python 3.11 as base image
-FROM python:3.11-bullseye
+# Use Python 3.12 as base image
+FROM python:3.12-bookworm
 
 # Avoid warnings by switching to noninteractive
 ENV DEBIAN_FRONTEND=noninteractive
